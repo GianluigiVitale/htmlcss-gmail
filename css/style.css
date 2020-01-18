@@ -5,36 +5,41 @@
 }
 
 h1 {
+    font-family: 'Roboto', sans-serif;
     color: white;
     line-height: 50px;
 }
 
 .text {
+    margin-left: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
     color: white;
 }
 
 header {
-    margin: 10px auto;
+    margin: 12px auto;
     width: 1000px;
 }
 
-.cerchio {
-    display: inline-block;
-    height: 50px;
-    width: 50px;
-    vertical-align: middle;
-    text-align: center;
-    border-radius: 50%;
-    background-color: orange;
+#searchbox {
+    margin-right: 2px;
+    padding: 6px;
+}
+
+#buttonsearch {
+    padding: 6px 25px;
+    background: lightgray;
+    font-family: Arial;
 }
 
 .search1 {
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 .top {
-    margin-bottom: 20px;
-    padding-bottom: 5px;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
     margin-top: 20px;
     border-bottom: 1px solid gray;
 }
@@ -49,6 +54,16 @@ body {
     background-image: url("../img/legno.jpg");
 }
 
+.cerchio {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    vertical-align: middle;
+    text-align: center;
+    border-radius: 50%;
+    background-color: orange;
+}
+
 main {
     background: lightgray;
     margin-top: 10px;
@@ -61,28 +76,33 @@ main {
 
 
 .email h3 {
-    display: inline;
+    display: inline-block;
     color: black;
 }
 
 .email {
-    border-bottom: 1px solid black
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid black
+}
+
+#box {
+    margin-left: 5px;
+}
+
+.testo {
+    color: gray;
 }
 
 .borderemail {
-    margin: 5px auto;
+    margin: 12px auto;
     width: 1000px;
     border-top: 1px solid gray;
     border-bottom: 1px solid gray;
 }
 
 footer {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: white;
     text-align: center;
     margin-top: 15px;
-}
-
-.testo {
-    color: gray;
 }
