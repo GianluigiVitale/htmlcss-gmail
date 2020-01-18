@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: white;
+    line-height: 50px;
+}
+
+.text {
+    color: white;
+}
+
+header {
+    margin: 10px auto;
+    width: 1000px;
+}
+
+.cerchio {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    vertical-align: middle;
+    text-align: center;
+    border-radius: 50%;
+    background-color: orange;
+}
+
+.search1 {
+    margin-bottom: 5px;
+}
+
+.top {
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+    margin-top: 20px;
+    border-bottom: 1px solid gray;
+}
+
+.immagine {
+    height: 100px;
+    line-height: 100px;
+    vertical-align: middle;
+}
+
+body {
+    background-image: url("../img/legno.jpg");
+}
+
+main {
+    background: lightgray;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+    color: white;
+    border-bottom: 1px solid grey;
+    border-top: 1px solid grey;
+}
+
+
+.email h3 {
+    display: inline;
+    color: black;
+}
+
+.email {
+    border-bottom: 1px solid black
+}
+
+.borderemail {
+    margin: 5px auto;
+    width: 1000px;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+footer {
+    font-family: 'Lato', sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.testo {
+    color: gray;
+}
