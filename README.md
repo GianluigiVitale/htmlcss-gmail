@@ -3,5 +3,5 @@ Basic page made with HTML and CSS
 ***
 ### [Live Version](https://gianluigivitale.github.io/htmlcss-gmail/)
 ***
-#### Preview:
+### Preview:
 ![Multiply](img/preview.png "Preview")
